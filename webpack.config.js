@@ -23,6 +23,15 @@ module.exports = {
         }
       },
       {
+        test: /\.(png|svg|jpg|gif)$/,
+        use: [{
+          loader: 'file-loader',
+          options: {
+                outputPath: '/dist/img/'
+            }
+        }],
+      },
+      {
         test: /\.scss$/,
         include: path.resolve(__dirname, 'src/scss'),
         use: ExtractTextPlugin.extract({

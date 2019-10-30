@@ -1,4 +1,6 @@
 .nav-bar {
+	background: white;
+
 	ul {
 	  display: flex;
 	  list-style-type: none;
@@ -14,14 +16,82 @@
 	  margin: 0px 20px 0px 20px;
 	  display: flex;
 	  align-items: center;
-	  height: 70px;
+	  height: 90px;
+	  font-family: Montserrat;
+	  font-style: normal;
+	  font-weight: normal;
+	  color: rgba(31, 32, 65, 0.5);
 	}
 
 	.nav-bar__logo {
 	  margin-right: auto;
+	  margin-left: 172.5px;
+
+	  img {
+	  	height: 55px;
+	  	width: 55px;
+	  }
+
+	  .nav-bar__logo_label {
+	  	margin-left: 15px;
+	  	font-size: 22px;
+	  }
 	}
 
-	/* Desktop menu */
+
+
+	.nav-bar__register {
+		margin-right: 5px;
+
+		.nav-bar__register_button {
+			width: 250px;
+			height: 42px;
+			background-color: #8BA4F9;
+			border-radius: 21px;
+
+			font-family: Montserrat;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 16.75px;
+			text-transform: uppercase;
+
+			color: #FFFFFF;
+			border: 0px;
+		}
+	}
+
+	.nav-bar__login {
+		margin: 0px 5px 0px 5px;
+		
+		.nav-bar__login_button {
+			width: 105px;
+			height: 40px;
+			margin: 10px 0px 10px 0px;
+			background-color: #FFFFFF;
+			border-radius: 21px;
+
+			font-family: Montserrat;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 16.75px;
+			text-transform: uppercase;
+			color: #8BA4F9;
+			border: solid;
+			border-width: 2px;
+		}
+	}
+
+	.nav-bar__services__img, .nav-bar__documentation__img {
+		margin-left: 10px;
+		display: flex;
+	}
+
+	.nav-bar__documentation {
+		margin: 0px 30px 0px 10px;
+	}
+
+
+	/* Mobile menu */
 	@media all and (max-width: 320px) {
 	    ul {
 	    	flex-direction: column;
