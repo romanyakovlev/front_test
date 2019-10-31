@@ -1,0 +1,65 @@
+div {
+
+	ul {
+			list-style-type: none;
+			padding: 0;
+	}
+	.pick-number {
+		padding: 0px 25px 0px 25px;
+		display: flex;
+		background-color: white;
+		flex-direction: column;
+		width: 450px;
+		margin-left: 125px;
+		margin-top: 100px;
+
+		.pick-number__dates {
+			display: flex;
+
+			.full-growth {flex-grow:1;}
+			.pick-number__dates__arrive {
+				margin-right:5px;
+				.pick-number__dates__arrive__btn {
+					background-color: #FFFFFF;
+					color: grey;
+					width: 100%;
+					font-size: 16px;
+					border: 2px solid grey;
+					cursor: pointer;
+					height: 50px;
+
+				}
+			}
+
+			.pick-number__dates__departure {
+				margin-left:5px;
+				.pick-number__dates__departure__btn {
+					background-color: #FFFFFF;
+					color: grey;
+					width: 100%;
+					font-size: 16px;
+					border: 2px solid grey;
+					cursor: pointer;
+					height: 50px;
+				}
+			}
+		}
+
+		.pick-number__guests {
+			margin: 20px 0px 20px 0px;
+
+			.pick-number__guests__btn {
+				background-color: #FFFFFF;
+				color: grey;
+				height: 50px;
+				width: 100%;
+				font-size: 16px;
+				border: 2px solid grey;
+				cursor: pointer;
+
+			}
+		}
+
+	}	
+}
+

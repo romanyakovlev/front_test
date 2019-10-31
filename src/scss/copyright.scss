@@ -1,0 +1,29 @@
+.copyright-bar {
+	display: flex;
+	  list-style-type: none;
+	  font-size: 20px;
+
+	  justify-content: flex-end;
+	  flex-wrap: wrap;
+	  backgroud: white;
+      align-items: flex-start;
+      flex-direction: row;
+
+      .copyright-bar__sign {
+      	margin-right: auto;
+      	margin-left: 125px;
+      }
+
+      .copyright-bar__social {
+      	display: flex;
+      	list-style-type: none;
+      	li {
+      		width: 50px;
+      	}
+      	li > img {
+      		height: 30px;
+      		width: 30px;
+      	}
+      }
+
+}

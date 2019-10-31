@@ -6,28 +6,60 @@ footer {
 	  display: flex;
 	  list-style-type: none;
 	  font-size: 20px;
-	  justify-content: center; 
+	  justify-content: space-between; 
 	  padding: 0px;
 	  margin-top: 130px;
 	  flex-wrap: wrap;
 	  backgroud: white;
       align-items: flex-start;
 
-
 	  ul {
 	  	list-style-type: none;
+
+	  	.item-bold {
+	  		font-weight: bold;
+	  		display: flex;
+	  		align-items: center;
+	  		color: rgba(31, 32, 65, 0.85);
+	  		text-transform: uppercase;
+	  	}
+
+	  	li {
+	  		margin-bottom: 20px;
+	  		font-family: 'Montserrat', sans-serif;
+	  		font-style: normal;
+	  		font-weight: normal;
+	  		color: rgba(31, 32, 65, 0.5);
+	  		font-size: 19px;
+	  		line-height: 30px;
+	  	}
 	  }
 
 	  .item {
 	  	display: flex;
-	  	flex-direction: column;
+	  	flex-direction: column;	  	
 	  }
 
 	  .footer-widgets__group-logo {
-	  	width: 300px;
+	  	width: 375px;
+	  	margin-left: 150px;
+
+	  	ul {
+	  		padding-left:0px;
+	  	}
+
+        img {
+	  	  height: 55px;
+	  	  width: 55px;
+	    }
+
+	    .nav-bar__logo_label {
+	  	  margin-left: 15px;
+	  	  font-size: 22px;
+	    }
 	  }
 
 	  .footer-widgets_group-subscribe {
-	  	width: 300px;
+	  	width: 350px;
 	  }
 }

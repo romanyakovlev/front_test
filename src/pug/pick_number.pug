@@ -1,0 +1,23 @@
+mixin pick_number(options)
+	div
+		ul(class='pick-number')
+			li(class="pick-number__header")
+				h1 Найдем номера под ваши желания
+			li
+				ul(class="pick-number__dates")
+					li(class="full-growth")
+						ul(class="pick-number__dates__arrive")
+							li
+								h2 Прибытие						
+							li
+								button(class="pick-number__dates__arrive__btn") ДД.ММ.ГГГГ
+
+					li(class="full-growth")
+						ul(class="pick-number__dates__departure")
+							li
+								h2 Выезд					
+							li
+								button(class="pick-number__dates__departure__btn") ДД.ММ.ГГГГ
+			li(class="pick-number__guests")
+				button(class="pick-number__guests__btn") Сколько гостей
+				
